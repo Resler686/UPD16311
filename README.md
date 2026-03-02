@@ -1,9 +1,9 @@
 
 
 
-vfd.printDigit(grid, char);       // Выводит цифру или букву на грид 3–7
-vfd.printString(str, startGrid);  // Выводит строку (макс 5 символов) начиная с указанного грида 3–7
-vfd.setDash(true/false);           // Включает/выключает тире на гриде 3
+##vfd.printDigit(grid, char);       // Выводит цифру или букву на грид 3–7
+##vfd.printString(str, startGrid);  // Выводит строку (макс 5 символов) начиная с указанного грида 3–7
+##vfd.setDash(true/false);           // Включает/выключает тире на гриде 3
 vfd.setColon1(true/false);         // Включает/выключает первое двоеточие на гриде 4
 vfd.setColon2(true/false);         // Включает/выключает второе двоеточие на гриде 6
 vfd.setIcon(grid, mask);           // Включает сегменты/иконки по маске на гриде 0–2, 8–10
@@ -68,4 +68,5 @@ ICON_4_43          // 4.43 MHz
 ICON_HI_FI         // Надпись HI-FI
 ICON_DUAL          // Надпись DUAL
 ICON_ST            // Надпись ST
+
 ICON_NICAM         // Надпись NICAM
